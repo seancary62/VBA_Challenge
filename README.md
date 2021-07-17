@@ -19,7 +19,7 @@ Image 1: VBA Challenge Time for 2017
 
 ![VBA Challenge Time for 2018](https://github.com/seancary62/VBA_Challenge/blob/main/Resources/VBA_Challenge_2018.PNG?raw=true)
 
-Image 1: VBA Challenge Time for 2018
+Image 2: VBA Challenge Time for 2018
 
 Using this method resulted in a faster processing time for the output as opposed to the other method of looping through and printing at each iteration. Using the refactored version of the script we saw times around 0.08s to process the 12 stock tickers in the spreadsheet versus the previous method which took about 0.79s. This was a substantial improvement and definitely more suitable for larger data sets. In this case, that could mean adding additional tickers or even a complete index. 
 
