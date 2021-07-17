@@ -13,11 +13,13 @@ The purpose of this project is to refactor the provided VBA script in order to m
 In order to refactor our data, we created 3 additional arrays to store the trading volume, starting price, and ending price for each ticker. A for loop was used to cycle through each ticker in the index. This was done in order to sum the trading volume and identify the starting and ending prices for the year selected by the user. This information was then stored in the arrays with the corresponding index number. Once the ending price was found the ticker index was increased. This allowed the subroutine to continue counting through the rows without restarting at the first line. Another loop was used to print the information on the “All Stocks Analysis” sheet for each ticker. The timer function in VBA was used to record how the script took to process.
 
 ## Results
-![](Resources/VBA_Challenge_2017.png)
+![VBA Challenge Time for 2017](https://github.com/seancary62/VBA_Challenge/blob/main/Resources/VBA_Challenge_2017.PNG?raw=true)
+
 Image 1: VBA Challenge Time for 2017
 
-![](Resources/VBA_Challenge_2018.png)
-Image 2: VBA Challenge Time for 2018
+![VBA Challenge Time for 2018](https://github.com/seancary62/VBA_Challenge/blob/main/Resources/VBA_Challenge_2018.PNG?raw=true)
+
+Image 1: VBA Challenge Time for 2018
 
 Using this method resulted in a faster processing time for the output as opposed to the other method of looping through and printing at each iteration. Using the refactored version of the script we saw times around 0.08s to process the 12 stock tickers in the spreadsheet versus the previous method which took about 0.79s. This was a substantial improvement and definitely more suitable for larger data sets. In this case, that could mean adding additional tickers or even a complete index. 
 
